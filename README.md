@@ -66,7 +66,8 @@ Hola Mundo!!!
 
 ## Definiendo Variables
 
-Para definir una variable usamos la palabra reservada `var` seguido de un nombre para la variable y el tipo de dato.
+Para definir una variable usamos la palabra reservada `var` seguido de un nombre para la variable y el tipo de dato. <br>
+Creamos un archivo `variable.go` con el siguiente contenido
 
 ```sh
 package main
@@ -85,6 +86,18 @@ func main() {
         fmt.Println(concat)
 }
 ```
+<br>
+
+Ejecutamos:
+
+```
+$ go run variables.go 
+Tengo que ser siempre el mejor, mejor que nadie más
+4
+true 10.1 Variables 
+La suma de 2 + 2 es: 4
+```
+<br>
 
 Explicación:
 <br>
@@ -126,3 +139,49 @@ package fmt
 	%v	the value in a default format
 ...
 ```
+
+<br>
+
+## Ayuda de formato
+
+Go nos da una mano en el formateo de código, esto es por si tenemos un programa poco legible, de esta forma se estandarizará para una mejor lectura. <br>
+
+### Ejemplo código sin formato
+
+```sh
+package main
+import "fmt"
+func main() {   var pokemon string = "mejor que nadie más" 
+var suma int = 2 + 2
+a, b, c := true, 10.1, "Variables "
+   concat := fmt.Sprintf("La suma de 2 + 2 es: %d", suma) 
+    fmt.Println("Tengo que ser siempre el mejor, " + pokemon) 
+fmt.Println(suma) 
+            fmt.Println(a, b, c)
+            fmt.Println(concat)
+}
+```
+Como pueden ver este ejemplo a pesar de funcionar, no es muy amigable a la vista pero ejecutando el comando `go fmt` seguido del archivo a dar formato se verá de la siguiente forma.
+
+<br>
+
+```sh
+$ go fmt sin_formato.go
+sin_formato.go
+$ cat sin_formato.go 
+package main
+
+import "fmt"
+
+func main() {
+    var pokemon string = "mejor que nadie más"
+    var suma int = 2 + 2
+    a, b, c := true, 10.1, "Variables "
+    concat := fmt.Sprintf("La suma de 2 + 2 es: %d", suma)
+    fmt.Println("Tengo que ser siempre el mejor, " + pokemon)
+    fmt.Println(suma)
+    fmt.Println(a, b, c)
+    fmt.Println(concat)
+}
+```
+
