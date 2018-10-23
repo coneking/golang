@@ -187,3 +187,25 @@ func main() {
 }
 ```
 
+<br>
+
+## Creando Tipos de Datos
+
+En Go es posible crear un tipo de dato personalizado, esto quiere decir que podemos crear un objeto con ciertas características para su uso. Se inicializa con la palabra reservada `type` seguido del nombre del tipo de dato y la palabra reservada `struct`. <br>
+En su interior deben ir las caracteristicas del objeto con sus respectivos valores. <br>
+
+Ejemplo: 
+
+```
+package main
+
+type persona struct {
+    nombre string
+    apellido string
+    edad int
+    altura float32
+    sexo string
+}
+```
+
+<br>
