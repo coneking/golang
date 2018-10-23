@@ -1,4 +1,4 @@
-<p align="center"><img src="https://raw.githubusercontent.com/coneking/golang/develop/images/gogo.gif" width="500" /></p>
+<p align="center"><img src="https://raw.githubusercontent.com/coneking/golang/develop/images/gogo.gif" width="300" /></p>
 
 # Golang
 
