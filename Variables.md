@@ -44,3 +44,13 @@ La suma de 2 + 2 es: 4
 	- Variable **b**: Go intuye que se de tipo `float`
 	- Variable **c**: Go intuye que se de tipo `string`
 - Variable `concat` se compone de una concatenación entre un texto y una variable de tipo `int` y su salida será un string.
+
+***
+
+<br>
+
+Más información sobre paquetes, variables, tipos de datos, etc. En el [Tour de GO](https://tour.golang.org/basics/1)
+
+<br>
+
+[Inicio](/README.md)

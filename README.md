@@ -4,8 +4,8 @@
 
 - [Instalación](#instalacion)
 - [Hola Mundo](#hola-mundo)
-- [Ejecuciones](#ejecutar-el-programa)
-- [Ayudas](#ayuda-formato)
+- [Ejecuciones](#ejecuciones)
+- [Ayudas](#ayudas)
 - [Variable](/Variables.md)
 - [Struct](/Struct.md)
 
@@ -104,6 +104,8 @@ package fmt
 
 <br>
 
+# Ayudas
+
 ## Ayuda de formato
 
 Go nos da una mano en el formateo de código, esto es por si tenemos un programa poco legible, de esta forma se estandarizará para una mejor lectura. <br>
@@ -147,3 +149,8 @@ func main() {
 }
 ```
 
+***
+
+<br>
+
+Más información sobre paquetes, variables, tipos de datos, etc. En el [Tour de GO](https://tour.golang.org/basics/1)

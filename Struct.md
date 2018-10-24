@@ -65,3 +65,14 @@ $ go run prueba.go
 Charizard es de tipo Fuego y su número en la pokedex es el 6
 ```
 >**Nota:** Los campos omitidos devolverán un valor cero o nulo.
+
+*** 
+
+<br>
+
+Más información sobre punteros, struct, arrays, maps, etc. En el [Tour de GO](https://tour.golang.org/moretypes/1)
+
+<br>
+
+[Inicio](/README.md)
+
