@@ -6,7 +6,12 @@
 - [Hola Mundo](#hola-mundo)
 - [Ejecuciones](#ejecuciones)
 - [Ayudas](#ayudas)
+<<<<<<< HEAD
 - [Variables](/Variables.md)
+=======
+- [Variable](/Variables.md)
+- [Constantes](/Constantes.md)
+>>>>>>> 7af16e8c0168c526d100f7e631405f3b2245584e
 - [Struct](/Struct.md)
 
 ## Instalación
@@ -28,7 +33,7 @@ cd $HOME/go/src/prueba
 
 Creamos un archivo `hello.go` con la siguiente información
 
-```sh
+```go
 package main
 
 import "fmt"
@@ -60,7 +65,7 @@ Hola Mundo!!!
 
 <br>
 
-### Ejeutar compilando
+### Ejecutar compilando
 
 ```sh
 $ go build hello.go 
@@ -75,9 +80,12 @@ Hola Mundo!!!
 
 <br>
 
+<<<<<<< HEAD
 ***
 
 # Ayudas
+=======
+>>>>>>> 7af16e8c0168c526d100f7e631405f3b2245584e
 
 ## Ayudas sobre librerías
 
@@ -114,7 +122,7 @@ Go nos da una mano en el formateo de código, esto es por si tenemos un programa
 
 ### Ejemplo código sin formato
 
-```sh
+```go
 package main
 import "fmt"
 func main() {   var pokemon string = "mejor que nadie más" 

@@ -5,7 +5,7 @@ En su interior deben ir los campos con su respectivo tipo de dato. <br>
 
 Ejemplo: 
 
-```
+```go
 package main
 
 import "fmt"
@@ -24,7 +24,8 @@ type pokemon struct {
 Posteriormente podemos utilizarlo como un archivo json de las siguiente forma. <br>
 
 ### Nombrando cada campo y añadiendo un valor
-```
+
+```go
 func main(){
     fmt.Println(pokemon{tipo: "Fuego", numero: 6, color: "Rojo", nombre: "Charizard", altura: 1.70, peso: 90.5, habilidad: "Mar llamas", debilidad: "Agua"})
 }
@@ -38,7 +39,7 @@ $ go run estructuras.go
 
 ### Sólo añadiendo el valor de cada campo
 
-```
+```go
 func main(){
     fmt.Println(pokemon{"Charizard", "Fuego", 6, Rojo", 1.70, 90.5, "Mar llamas", "Agua"})
 }
@@ -52,7 +53,7 @@ $ go run estructuras.go
 
 ### Usando variables y nomenclatura de punto
 
-```
+```go
 func main(){
 var pokemon = pokemon {nombre: "Charizard", tipo: "Fuego", numero: 6, color: "Rojo", altura: 1.70, debilidad: "Agua"}
         
