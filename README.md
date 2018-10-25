@@ -29,7 +29,7 @@ cd $HOME/go/src/prueba
 
 Creamos un archivo `hello.go` con la siguiente información
 
-```sh
+```go
 package main
 
 import "fmt"
@@ -114,7 +114,7 @@ Go nos da una mano en el formateo de código, esto es por si tenemos un programa
 
 ### Ejemplo código sin formato
 
-```sh
+```go
 package main
 import "fmt"
 func main() {   var pokemon string = "mejor que nadie más" 

@@ -3,7 +3,7 @@
 Para definir una variable usamos la palabra reservada `var` seguido de un nombre para la variable y el tipo de dato. <br>
 Creamos un archivo `variable.go` con el siguiente contenido
 
-```sh
+```go
 package main
 
 import "fmt"
@@ -24,7 +24,7 @@ func main() {
 
 Ejecutamos:
 
-```
+```sh
 $ go run variables.go 
 Tengo que ser siempre el mejor, mejor que nadie más
 4

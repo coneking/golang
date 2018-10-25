@@ -5,7 +5,7 @@ Las constantes, distintas de las variables, son contenedores que almacenan valor
 - No pueden declararse usando `:=` como lo hace una variable. <br>
 - Par definir una constante usamos la palabra reservada `const` de la siguiente manera:
 
-```
+```go
 package main
 
 import "fmt"
@@ -20,7 +20,7 @@ func main() {
 
 Ejecutamos
 
-```
+```sh
 $ go run constante.go
 Charizard es un pokemon de tipo fuego
 ```
@@ -29,7 +29,7 @@ Charizard es un pokemon de tipo fuego
 
 Si intentamos modificar el valor de la constante, nuestro código fallará
 
-```
+```go
 package main
 
 import "fmt"
@@ -50,7 +50,7 @@ func main() {
 
 Ejecutamos
 
-```
+```sh
 $ go run constante.go 
 # command-line-arguments
 ./constante.go:11:11: cannot assign to elemento
