@@ -115,6 +115,78 @@ Explicación:
 
 <br>
 
+## Tipo de Datos
+
+Los tipos de datos en Go son casi lo mismos ya conocidos de otros lenguajes de programación como Python o Java.
+Los más comunes son los siguientes:
+
+- string
+- bool
+- int  int8  int16  int32  int64
+- uint uint8 uint16 uint32 uint64 uintptr
+- byte // alias for uint8
+- rune // alias for int32 // represents a Unicode code point
+- float32 float64
+
+<br>
+
+## Definiendo Constantes
+
+Las constantes, distintas de las variables, son contenedores que almacenan valores que se asignan de manera fija, su valor no puede ser modificado dentro del código, ya que, como su nombre lo dice es `constante` y una variable puede tener un valor `variable`.
+Par definir una constante usamos la palabra reservada `const` de la siguiente manera:
+
+```
+package main
+
+import "fmt"
+
+func main() {
+        const elemento string = "fuego"
+        fmt.Println("Charizard es un pokemon de tipo", elemento)
+
+}
+```
+<br>
+Ejecutamos
+
+```
+$ go run constante.go
+Charizard es un pokemon de tipo fuego
+```
+
+<br>
+
+Si intentamos modificar el valor de la constante, nuestro código fallará
+
+```
+package main
+
+import "fmt"
+
+func main() {
+        const elemento string = "fuego"
+        fmt.Println("Charizard es un pokemon de tipo", elemento)
+    
+
+        //Intento modificar el valor de la constante elemento
+        elemento = "agua"
+        fmt.Println("Blastoise es un pokemon de tipo", elemento)
+    
+}
+```
+
+<br>
+
+Ejecutamos
+
+```
+$ go run constante.go 
+# command-line-arguments
+./constante.go:11:11: cannot assign to elemento
+```
+
+<br>
+
 ## Ayudas sobre librerías
 
 Los paquetes en Go son muchos y si bien existe la documentación en [internet](https://golang.org/pkg/) también podemos ayudarnos del comando `godoc` seguido de uno de los paquetes a consultar para que nos muestre un manual de uso.
