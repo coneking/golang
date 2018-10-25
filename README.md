@@ -6,7 +6,7 @@
 - [Hola Mundo](#hola-mundo)
 - [Ejecuciones](#ejecuciones)
 - [Ayudas](#ayudas)
-- [Variable](/Variables.md)
+- [Variables](/Variables.md)
 - [Struct](/Struct.md)
 
 ## Instalación
@@ -75,6 +75,10 @@ Hola Mundo!!!
 
 <br>
 
+***
+
+# Ayudas
+
 ## Ayudas sobre librerías
 
 Los paquetes en Go son muchos y si bien existe la documentación en [internet](https://golang.org/pkg/) también podemos ayudarnos del comando `godoc` seguido de uno de los paquetes a consultar para que nos muestre un manual de uso.
@@ -103,8 +107,6 @@ package fmt
 ```
 
 <br>
-
-# Ayudas
 
 ## Ayuda de formato
 
@@ -147,6 +149,33 @@ func main() {
     fmt.Println(a, b, c)
     fmt.Println(concat)
 }
+```
+
+## Comentarios
+
+Como en todo lenguaje de programación los comentarios son muy útiles a la hora de leer un código. Nos pueden ayudar a entender de mejor manera lo que se está llevando a cabo y manetener en nuestro propio programa.<br>
+En Go para comentar se utiliza la doble barra `//` y para en marcar un tramo más extenso de código se inicia con `/*` y finaliza con `*/`
+
+```sh
+package main
+
+import "fmt"
+
+func main() {
+    var pokemon string = "mejor que nadie más"
+    var suma int = 2 + 2
+    a, b, c := true, 10.1, "Variables "
+    concat := fmt.Sprintf("La suma de 2 + 2 es: %d", suma)
+    
+    //Dejaré un comentario por acá de lo que estoy haciendo
+    fmt.Println("Tengo que ser siempre el mejor, " + pokemon)
+    
+    //Estas líneas se comentarán también
+
+    */fmt.Println(suma)
+    fmt.Println(a, b, c)
+    fmt.Println(concat)
+    */
 ```
 
 ***
