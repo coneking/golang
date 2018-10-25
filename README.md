@@ -6,12 +6,8 @@
 - [Hola Mundo](#hola-mundo)
 - [Ejecuciones](#ejecuciones)
 - [Ayudas](#ayudas)
-<<<<<<< HEAD
 - [Variables](/Variables.md)
-=======
-- [Variable](/Variables.md)
 - [Constantes](/Constantes.md)
->>>>>>> 7af16e8c0168c526d100f7e631405f3b2245584e
 - [Struct](/Struct.md)
 
 ## Instalación
@@ -80,12 +76,9 @@ Hola Mundo!!!
 
 <br>
 
-<<<<<<< HEAD
 ***
 
 # Ayudas
-=======
->>>>>>> 7af16e8c0168c526d100f7e631405f3b2245584e
 
 ## Ayudas sobre librerías
 
